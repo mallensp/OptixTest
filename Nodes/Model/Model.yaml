@@ -1,0 +1,45 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: Mein1Tag
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAEtherNet_IPDriver1/PLC1/Tags/Controller Tags/TestIncrementTag"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Tag2
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- File: Teil1/Teil1.yaml
+- Name: Motor1
+  Type: MotorType1
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: MotorType1
+  Id: g=bdad2744e010bd1cac4993fa8336c9b8
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
