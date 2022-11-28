@@ -508,3 +508,10 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "/Objects/TrainingProject2Version/CommDrivers/RAEtherNet_IPDriver1/PLC1/Tags/Controller Tags/Valve2"
+- Name: Washing
+  Id: g=3b4c65b519347c87729e50ba4fc4f9ce
+  Supertype: BaseDisplay
+  ReferenceType: HasComponent
+  Children:
+  - Name: Hintergrund
+    Type: Rectangle
